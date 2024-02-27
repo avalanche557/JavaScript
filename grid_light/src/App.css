@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  border: 1px solid black;
+  max-width: 300px;
+  width:100%;
+  gap: 20px;
+  padding: 20px
+
+}
+
+.cell {
+  height: 0;
+  padding-bottom: 100%;
+  background-color: transparent;
+  border: 1px soild black;
+}
+
+.cell-active {
+  background-color: green;
+}
+
+
+
